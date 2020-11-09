@@ -1,6 +1,8 @@
 
 $url = "https://www.neboleem.net/medicinskie-specialnosti.php";
 
+echo 123;
+
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
